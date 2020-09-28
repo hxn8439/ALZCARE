@@ -11,7 +11,7 @@ Here are the following compilation instructions below.
 
 ## Available Scripts
 
-In the project directory, you can run:
+Navigate to this project directory in your windows command prompt, you will these command in the following order:
 
 ### `npm install`
 
@@ -27,6 +27,9 @@ You will also see any lint errors in the console.
 
 if you encounter errors running npm start follow this troubleshoot at 
 https://stackoverflow.com/questions/42308879/how-to-solve-npm-error-npm-err-code-elifecycle
+
+### OPTIONAL COMMANDS
+Please refer below.
 
 ### `npm test`
 
