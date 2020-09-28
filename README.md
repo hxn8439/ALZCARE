@@ -1,16 +1,32 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+##Environment files
+
+
+##Description
+We create an easy-to-use, reactJs native website to provide helpful information about dementia and allow Asian-American dementia patients and their family caregivers to connect to dementia care facilities and researchers in English or their native language. This mobile web application can be hosted locally on a Windows 10 OS personal computer. To host this mobile website on the internet, a Firebase console is needed in which it requires a google account. 
+
+##Compilation instruction
+Here are the following compilation instructions below.
+
 ## Available Scripts
 
 In the project directory, you can run:
 
+### `npm install`
+
+Install node project manager.
+
 ### `npm start`
 
 Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+This will open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
+
+if you encounter errors running npm start follow this troubleshoot at 
+https://stackoverflow.com/questions/42308879/how-to-solve-npm-error-npm-err-code-elifecycle
 
 ### `npm test`
 
