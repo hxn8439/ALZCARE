@@ -1,12 +1,12 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-##Environment files
+###Environment files
 
 
-##Description
+###Description
 We create an easy-to-use, reactJs native website to provide helpful information about dementia and allow Asian-American dementia patients and their family caregivers to connect to dementia care facilities and researchers in English or their native language. This mobile web application can be hosted locally on a Windows 10 OS personal computer. To host this mobile website on the internet, a Firebase console is needed in which it requires a google account. 
 
-##Compilation instruction
+###Compilation instruction
 Here are the following compilation instructions below.
 
 ## Available Scripts
