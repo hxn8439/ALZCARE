@@ -11,7 +11,7 @@ Here are the following compilation instructions below.
 
 ## Available Scripts
 
-Navigate to this project directory in your windows command prompt, you will these command in the following order:
+Navigate to this project directory in your windows command prompt, you will use these commands in the following order:
 
 ### `npm install`
 
