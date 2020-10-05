@@ -26,19 +26,31 @@ function Navbar() {
                       </li>
                       <li className = 'nav-item'>
                           <Link to='/resources' className='nav-links' onClick={closeMobileMenu}>
-                            Dementia Info
+                            Community Resources
                           </Link>
                       </li>
                       <li className = 'nav-item'>
-                          <Link to='/appointment' className='nav-links' onClick={closeMobileMenu}>
-                            Appointment
+                          <Link to='/dementia_info' className='nav-links' onClick={closeMobileMenu}>
+                            Dementia Information
                           </Link>
                       </li>
                       <li className = 'nav-item'>
-                          <Link to='/contact' className='nav-links' onClick={closeMobileMenu}>
-                            Contact Us
+                          <Link to='/research' className='nav-links' onClick={closeMobileMenu}>
+                           Research 
                           </Link>
                       </li>
+                      <li className = 'nav-item'>
+                          <Link to='/outreach' className='nav-links' onClick={closeMobileMenu}>
+                           Outreach
+                          </Link>
+                      </li>
+                      <li className = 'nav-item'>
+                          <Link to='/Contact' className='nav-links' onClick={closeMobileMenu}>
+                           Contact Us
+                          </Link>
+                      </li>
+                      
+                      
                   </ul>
 
               </div>
