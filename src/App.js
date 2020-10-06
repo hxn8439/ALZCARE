@@ -10,6 +10,7 @@ import dementia_info from './components/pages/dementia_info';
 import resources from './components/pages/resources';
 
 function App() {
+
   return (
     <>
     <Router>
@@ -27,4 +28,6 @@ function App() {
   );
 }
 
+
 export default App;
+
