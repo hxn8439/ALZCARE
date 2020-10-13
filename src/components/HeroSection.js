@@ -1,3 +1,4 @@
+/*@flow*/
 import React from 'react';
 import '../App.css';
 import { Button } from './Button';
@@ -14,6 +15,7 @@ function HeroSection() {
           className='btns'
           buttonStyle='btn--outline'
           buttonSize='btn--large'
+          onClick={() => window.open("https://www.picktime.com/alzcare", "_blank")}
         >
           Make an Appointment
         </Button>

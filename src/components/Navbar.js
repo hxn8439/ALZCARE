@@ -1,3 +1,4 @@
+/* @flow */
 import React, {useState} from 'react'
 import{Link} from 'react-router-dom';
 import './Navbar.css';
@@ -26,16 +27,21 @@ function Navbar() {
                       </li>
                       <li className = 'nav-item'>
                           <Link to='/resources' className='nav-links' onClick={closeMobileMenu}>
+                            Community Resources
+                          </Link>
+                      </li>
+                      <li className = 'nav-item'>
+                          <Link to='/cards' className='nav-links' onClick={closeMobileMenu}>
                             Dementia Info
                           </Link>
                       </li>
                       <li className = 'nav-item'>
                           <Link to='/appointment' className='nav-links' onClick={closeMobileMenu}>
-                            Appointment
+                            Research Oppurtunities
                           </Link>
                       </li>
                       <li className = 'nav-item'>
-                          <Link to='/contact' className='nav-links' onClick={closeMobileMenu}>
+                          <Link to='/contacts' className='nav-links' onClick={closeMobileMenu}>
                             Contact Us
                           </Link>
                       </li>
