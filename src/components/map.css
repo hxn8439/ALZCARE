@@ -7,8 +7,10 @@
 }
 
 .google-map {
-  width: 100%;
+  margin: auto;
+  width: 90%;
   height: 60vh;
+  padding: 20px;
 }
 
 .pin {
