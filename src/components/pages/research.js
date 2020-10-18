@@ -1,14 +1,18 @@
-import React from 'react';
-import '../../App.css';
+import React from "react";
+import { InlineWidget } from "react-calendly";
+ 
+const Research = () => {
+  return (   
 
-
-
-function research() {
-  return (
-    <div className='hero-container'>
-
+    <div className="calendly">
+      <InlineWidget url="https://calendly.com/alzcare/15min?primary_color=4d5055" />
     </div>
+    
+    
   );
-}
+};
+ 
+export default Research;
 
-export default research;
+
+//"https://calendly.com/alzcare/15min?primary_color=4d5055"
