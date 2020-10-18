@@ -22,6 +22,12 @@ function Cards() {
               label='Dementia'
               path='/services'
             />
+            <CardItem
+              src='images/img-2.jpg'
+              text='Write whatever you want I do not care. Goodbye!!'
+              label='Dementia'
+              path='/services'
+            />
           </ul>
         </div>
       </div>

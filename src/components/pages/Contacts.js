@@ -1,17 +1,3 @@
-// import React from 'react';
-
-
-// const Contact = () => {
-
-  
-//  return (
-
-//     <h1>asdsa</h1>
-
-//  );
-// }
-
-// export default Contact;
 import React, { useState } from 'react';
 import '../../components/pages/Contacts.css';
 import {db} from '../../components/pages/firebase.js';
@@ -54,24 +40,24 @@ const Contacts = () => {
 
  return (
 
-  <div className='hero-container'> 
+  <div className='hero-container1'> 
   <form className = "form" onSubmit={handleSubmit}>
     
     <h1>Contact form</h1>
 
-    <label>name</label>
-    <input placeholder ="name" value={name} onChange={(e) => setName(e.target.value)} />
+ 
+    <input placeholder ="Name" value={name} onChange={(e) => setName(e.target.value)} />
 
-    <label>email</label>
-    <input placeholder ="email" value={email} onChange={(e) => setEmail(e.target.value)} />
+   
+    <input placeholder ="Email" value={email} onChange={(e) => setEmail(e.target.value)} />
 
-    <label>subject</label>
-    <input placeholder ="subject" value={subject} onChange={(e) => setSubject(e.target.value)}/>
+   
+    <input placeholder ="Subject" value={subject} onChange={(e) => setSubject(e.target.value)}/>
 
-    <label>message</label>
-    <textarea placeholder="message" value={message} onChange={(e) => setMessage(e.target.value)}></textarea>
+    
+    <textarea placeholder="Message" value={message} onChange={(e) => setMessage(e.target.value)}></textarea>
 
-    <button type="submit" style={{background : loader ? "#ccc" : "rgb(2, 2, 110)" }}>Submit</button>
+    <button type="Submit" style={{background : loader ? "#ccc" : "rgb(2, 2, 110)" }}>Submit</button>
 
     
 

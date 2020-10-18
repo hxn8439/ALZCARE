@@ -17,6 +17,16 @@ video {
     box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
     object-fit: contain;
   }
+  .hero-container1 {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    object-fit: contain;
+  }
   
   .hero-container > h1 {
     color: #fff;
