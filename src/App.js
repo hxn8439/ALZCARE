@@ -9,6 +9,7 @@ import Research from './components/pages/Research';
 import Cards from './components/Cards';
 
 function App() {
+
   return (
     <>
     <Router>
@@ -24,4 +25,6 @@ function App() {
   );
 }
 
+
 export default App;
+
