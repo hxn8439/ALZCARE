@@ -43,7 +43,7 @@ const Contacts = () => {
   <div className='hero-container1'> 
   <form className = "form" onSubmit={handleSubmit}>
     
-    <h1>Contact form</h1>
+    <h1>Contact Us</h1>
 
  
     <input placeholder ="Name" value={name} onChange={(e) => setName(e.target.value)} />
