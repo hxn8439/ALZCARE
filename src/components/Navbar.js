@@ -50,9 +50,12 @@ function Navbar() {
                             Contact Us
                           </Link>
                       </li>
-                
-                      
-                      
+                      <li className = 'nav-item'>
+                          <Link to='/loginface' className='nav-links' onClick={closeMobileMenu}>
+                            Login
+                          </Link>
+                      </li>
+
                   </ul>
 
               </div>

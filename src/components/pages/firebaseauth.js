@@ -1,6 +1,6 @@
 import firebase from 'firebase';
 
-var firebaseApp = firebase.initializeApp({
+const config = {
     apiKey: "AIzaSyCpGO5kL4d9m3O7Ux7vQ2bmSsTUFajcLfQ",
     authDomain: "alzcare-fdf1e.firebaseapp.com",
     databaseURL: "https://alzcare-fdf1e.firebaseio.com",
@@ -9,11 +9,7 @@ var firebaseApp = firebase.initializeApp({
     messagingSenderId: "962247959171",
     appId: "1:962247959171:web:2ef6601b5b97a345d1f1b6",
     measurementId: "G-ZZ3CRQB4G2"
-  });
+  };
 
-  var db = firebaseApp.firestore();
-
-  const fire = firebaseApp;
-
-  export { db };
+  const fire = firebase.initializeApp(config);
   export default fire;
