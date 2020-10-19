@@ -5,7 +5,7 @@ import {BrowserRouter as Router,Switch,Route} from 'react-router-dom';
 import './App.css';
 import Home from './components/pages/Home';
 import Contacts from './components/pages/Contacts';
-import Research from './components/pages/Research';
+import Research from './components/pages/research';
 import resources from './components/pages/resources';
 import Cards from './components/Cards';
 import loginface from './components/pages/loginface';
