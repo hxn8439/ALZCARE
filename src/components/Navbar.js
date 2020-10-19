@@ -37,7 +37,7 @@ function Navbar() {
                       </li>
                       <li className = 'nav-item'>
                           <Link to='/research' className='nav-links' onClick={closeMobileMenu}>
-                            Research Opportunities
+                            Research
                           </Link>
                       </li>
                       <li className = 'nav-item'>
