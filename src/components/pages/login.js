@@ -2,6 +2,7 @@ import React from 'react';
 import { signInWithGoogle } from '../../components/pages/firebase';
 import { auth } from '../../components/pages/firebase';
 import '../../components/pages/login.css';
+import { Button } from '../Button';
 
 
 class login extends React.Component {
@@ -28,6 +29,7 @@ class login extends React.Component {
 
   render() {
     return (
+      <div className='hero-container'>
       <div className='user-info'>
         {
 
@@ -44,10 +46,13 @@ class login extends React.Component {
             </div>
             ) :
 
-            <button onClick={signInWithGoogle}>SIGN IN WITH GOOGLE</button>
+           
+
+            <Button onClick={signInWithGoogle} className='btns'buttonStyle='btn--outline' buttonSize='btn--large'> SIGN IN WITH GOOGLE</Button>
 
         }
       </div >
+      </div>
     );
   }
 }

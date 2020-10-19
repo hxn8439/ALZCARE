@@ -40,7 +40,7 @@ const Contacts = () => {
 
  return (
 
-  <div className='hero-container1'> 
+  <div className='hero-container'> 
   <form className = "form" onSubmit={handleSubmit}>
     
     <h1>Contact form</h1>
