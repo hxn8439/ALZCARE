@@ -1,3 +1,4 @@
+/* @flow */
 import React, {useState} from 'react'
 import{Link} from 'react-router-dom';
 import './Navbar.css';
@@ -30,13 +31,13 @@ function Navbar() {
                           </Link>
                       </li>
                       <li className = 'nav-item'>
-                          <Link to='/dementia_info' className='nav-links' onClick={closeMobileMenu}>
-                            Dementia Information
+                          <Link to='/cards' className='nav-links' onClick={closeMobileMenu}>
+                            Dementia Info
                           </Link>
                       </li>
                       <li className = 'nav-item'>
                           <Link to='/research' className='nav-links' onClick={closeMobileMenu}>
-                           Research 
+                            Research Opportunities
                           </Link>
                       </li>
                       <li className = 'nav-item'>
@@ -45,10 +46,11 @@ function Navbar() {
                           </Link>
                       </li>
                       <li className = 'nav-item'>
-                          <Link to='/Contact' className='nav-links' onClick={closeMobileMenu}>
-                           Contact Us
+                          <Link to='/contacts' className='nav-links' onClick={closeMobileMenu}>
+                            Contact Us
                           </Link>
                       </li>
+                
                       
                       
                   </ul>
@@ -59,4 +61,4 @@ function Navbar() {
     )
 }
 
-export default Navbar
+export default Navbar;

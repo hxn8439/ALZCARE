@@ -1,13 +1,13 @@
+/*@flow*/
 import React from 'react';
 import Navbar from './components/Navbar';
 import {BrowserRouter as Router,Switch,Route} from 'react-router-dom';
 import './App.css';
 import Home from './components/pages/Home';
-import Contact from './components/pages/Contact';
-import outreach from './components/pages/outreach';
-import research from './components/pages/research';
-import dementia_info from './components/pages/dementia_info';
+import Contacts from './components/pages/Contacts';
+import Research from './components/pages/Research';
 import resources from './components/pages/resources';
+import Cards from './components/Cards';
 
 function App() {
 
@@ -17,11 +17,10 @@ function App() {
     <Navbar/>
     <Switch>
       <Route path='/'exact component={Home}/>
-      <Route path='/Contact'exact component={Contact}/>
-      <Route path='/outreach'exact component={outreach}/>
-      <Route path='/research'exact component={research}/>
-      <Route path='/dementia_info'exact component={dementia_info}/>
-      <Route path='/resources'exact component={resources}/>
+      <Route path='/contacts' component={Contacts}/>
+      <Route path='/cards' component={Cards}/>
+      <Route path='/resources' component={resources}/>
+      <Route path='/research' component={Research}/>
     </Switch>
     </Router>
     </>
