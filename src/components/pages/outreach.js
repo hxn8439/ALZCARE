@@ -1,12 +1,13 @@
 import React from 'react';
 import '../../App.css';
 import { Button } from '../Button';
+//importing all dependiencies, libraries, and subsite js pages by category- Hamilton Nguyen 10/19/2020
 
 
-
+// the outreach function is to serve as a return page to statically place two weblinked buttons to redirect weChat and kakotalk website for users to access those messaging platform. - Hamilton Nguyen 10/19/2020
  function Outreach ()  {
   return (
-    
+    <div className='hero-container'>
     <div className='hero-btns'>
     <Button
       className='btns'
@@ -27,7 +28,7 @@ import { Button } from '../Button';
     
     
   </div>       
-        
+  </div>     
       
 
 

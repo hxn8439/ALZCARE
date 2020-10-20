@@ -2,8 +2,9 @@
 import React, {useState} from 'react'
 import{Link} from 'react-router-dom';
 import './Navbar.css';
+// importing a dependencies, libraries and css files. - Hamilton Nguyen 10/19/2020
 
-
+// The Navbar() function is to serve a return out environment to statically link all subsite pages through a bar navigation within the ALZCARE site. - Hamilton Nguyen 10/19/2020
 function Navbar() {
     const [click,setClick]=useState(false);
 
@@ -63,5 +64,7 @@ function Navbar() {
         </>
     )
 }
+//According to above, each subsite are called in as li objects and classified by className, link, and display text. - Hamilton Nguyen 10/19/2020
+
 
 export default Navbar;

@@ -1,9 +1,11 @@
 import React, { useState } from 'react';
 import '../../components/pages/Contacts.css';
 import {db} from '../../components/pages/firebase.js';
-import {Outreach} from '../../components/pages/Outreach';
+import { Button } from '../Button';
+import '../HeroSection.css';
+//importing all dependiencies, libraries, and subsite js pages by category- Hamilton Nguyen 10/19/2020
 
-
+// const contact create the contents of the user's meta data imput and its sent to the firebase cloud firestore. - Hamilton Nguyen 10/19/2020
 const Contacts = () => {
 
   const [name, setName] = useState("");  
@@ -41,8 +43,8 @@ const Contacts = () => {
 
  return (
 
-  
-  <div className='hero-container1'>
+  //Static environment which a reactjs form are placed on the page with css file format. Refer Below - Hamilton Nguyen 10/19/2020
+  <div className='hero-container'>
      
   <form className = "form" onSubmit={handleSubmit}>
   <>
@@ -50,6 +52,7 @@ const Contacts = () => {
     </>
     
     <h1>Contact form</h1>
+   
 
  
     <input placeholder ="Name" value={name} onChange={(e) => setName(e.target.value)} />
@@ -63,7 +66,7 @@ const Contacts = () => {
     
     <textarea placeholder="Message" value={message} onChange={(e) => setMessage(e.target.value)}></textarea>
 
-    <button type="Submit" style={{background : loader ? "#ccc" : "rgb(2, 2, 110)" }}>Submit</button>
+    <Button type="Submit" className='btns'buttonStyle='btn--outline' buttonSize='btn--large'>Submit</Button>
 
       
 

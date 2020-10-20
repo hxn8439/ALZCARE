@@ -3,8 +3,9 @@ import { signInWithGoogle } from '../../components/pages/firebase';
 import { auth } from '../../components/pages/firebase';
 import '../../components/pages/login.css';
 import { Button } from '../Button';
+//importing all dependiencies, libraries, and subsite js pages by category- Hamilton Nguyen 10/19/2020
 
-
+// this class login is served as a closed admin page with certain approved priviledges... Rules and conditions are still being implemented and will be shown in iternation 3-- Hamilton Nguyen 10/19/2020
 class login extends React.Component {
 
   constructor() {
@@ -27,6 +28,7 @@ class login extends React.Component {
     this.unsubscribeFromAuth();
   }
 
+  // This is a render environment which create the admin layout with new set of priviledges that update the contents of the website using firebase cloud firestore. -- Hamilton Nguyen 10/19/2020
   render() {
     return (
       <div className='hero-container'>

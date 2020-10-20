@@ -10,9 +10,10 @@ import resources from './components/pages/resources';
 import Cards from './components/Cards';
 import Outreach from './components/pages/Outreach';
 import login from './components/pages/login';
+//importing all dependiencies, libraries, and subsite js pages by category- Hamilton Nguyen 10/19/2020
 
 function App() {
-
+//functional App interface to return all subsite pages into the Environment. - Hamilton Nguyen 10/19/2020
   return (
     <>
     <Router>
@@ -28,6 +29,7 @@ function App() {
     </Switch>
     </Router>
     </>
+    //Utilizing route path functions to statically link all subsite pages using Router<> and Switch<> - Hamilton Nguyen 10/19/2020 
   );
 }
 
