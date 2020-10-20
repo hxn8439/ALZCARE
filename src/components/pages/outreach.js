@@ -11,7 +11,7 @@ import { Button } from '../Button';
     <div className='hero-btns'>
     <Button
       className='btns'
-      buttonStyle='btn--outline1'
+      buttonStyle='btn--dark'
       buttonSize='btn--large'
       onClick={() => window.open("https://web.wechat.com/.", "_blank")}
     >
@@ -19,7 +19,7 @@ import { Button } from '../Button';
     </Button>
     <Button
       className='btns'
-      buttonStyle='btn--outline1'
+      buttonStyle='btn--dark'
       buttonSize='btn--large'
       onClick={() => window.open("https://open.kakao.com/o/gPYKtsqc.", "_blank")}
     >

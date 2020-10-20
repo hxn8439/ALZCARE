@@ -44,13 +44,13 @@ class login extends React.Component {
               <div>Name: {this.state.currentUser.displayName}</div>
               <div>Email: {this.state.currentUser.email}</div>
 
-              <button onClick={() => auth.signOut()}>LOG OUT</button>
+              <Button onClick={() => auth.signOut()}className='btns'buttonStyle='btn--dark' buttonSize='btn--large'>LOG OUT</Button>
             </div>
             ) :
 
            
 
-            <Button onClick={signInWithGoogle} className='btns'buttonStyle='btn--outline' buttonSize='btn--large'> SIGN IN WITH GOOGLE</Button>
+            <Button onClick={signInWithGoogle} className='btns'buttonStyle='btn--dark' buttonSize='btn--large'> SIGN IN WITH GOOGLE</Button>
 
         }
       </div >

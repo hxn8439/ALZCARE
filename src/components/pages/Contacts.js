@@ -66,7 +66,7 @@ const Contacts = () => {
     
     <textarea placeholder="Message" value={message} onChange={(e) => setMessage(e.target.value)}></textarea>
 
-    <Button type="Submit" className='btns'buttonStyle='btn--outline' buttonSize='btn--large'>Submit</Button>
+    <Button type="Submit" className='btns'buttonStyle='btn--dark' buttonSize='btn--large'>Submit</Button>
 
       
 

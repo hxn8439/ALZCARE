@@ -57,7 +57,7 @@ textarea:focus {
 
 .form > textarea {
   height: 150px;
-  max-width: 400px;
+  max-width: 700px;
   min-height: 100px;
 }
 
