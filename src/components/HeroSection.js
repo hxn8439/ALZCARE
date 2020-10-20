@@ -21,15 +21,7 @@ function HeroSection() {
         </Button>
         
         
-      </div>
-
-      
-
-      
-
-
-
-    
+      </div>  
     
 
     </div>

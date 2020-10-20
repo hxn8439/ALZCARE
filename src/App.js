@@ -8,6 +8,7 @@ import Contacts from './components/pages/Contacts';
 import Research from './components/pages/Research';
 import resources from './components/pages/resources';
 import Cards from './components/Cards';
+import Outreach from './components/pages/Outreach';
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
       <Route path='/cards' component={Cards}/>
       <Route path='/resources' component={resources}/>
       <Route path='/research' component={Research}/>
+      <Route path='/outreach' component={Outreach}/>
     </Switch>
     </Router>
     </>

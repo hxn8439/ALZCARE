@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import '../../components/pages/Contacts.css';
 import {db} from '../../components/pages/firebase.js';
+import {Outreach} from '../../components/pages/Outreach';
 
 
 const Contacts = () => {
@@ -40,8 +41,13 @@ const Contacts = () => {
 
  return (
 
-  <div className='hero-container1'> 
+  
+  <div className='hero-container1'>
+     
   <form className = "form" onSubmit={handleSubmit}>
+  <>
+      
+    </>
     
     <h1>Contact form</h1>
 
@@ -59,10 +65,11 @@ const Contacts = () => {
 
     <button type="Submit" style={{background : loader ? "#ccc" : "rgb(2, 2, 110)" }}>Submit</button>
 
-    
+      
 
   </form>
   </div>
+  
 
  );
 }
