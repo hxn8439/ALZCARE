@@ -1,7 +1,9 @@
 /*@flow*/
 import React from 'react';
 import { Link } from 'react-router-dom';
+//importing all dependiencies, libraries, and subsite js pages by category- Hamilton Nguyen 10/19/2020
 
+// This js file serves as a template to generate a generic format of a card object in card.js file - Hamilton Nguyen 10/19/2020
 function CardItem(props) {
   return (
     <>

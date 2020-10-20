@@ -3,7 +3,10 @@ import React from 'react';
 import '../App.css';
 import { Button } from './Button';
 import './HeroSection.css';
+//importing all dependiencies, libraries, and subsite js pages by category- Hamilton Nguyen 10/19/2020
 
+// Herosection function serves as a static layout designed of a homepage. From the homepage, it uses a hero containter to render a background and formatting design of the website. - Hamilton Nguyen 10/19/2020
+// Within the herosection function, there are four class buttons that designate each language for users to clicked on. - Hamilton Nguyen 10/19/2020
 function HeroSection() {
   return (
     <div className='hero-container'>
@@ -42,15 +45,7 @@ function HeroSection() {
         </Button>
         
         
-      </div>
-
-      
-
-      
-
-
-
-    
+      </div>  
     
 
     </div>

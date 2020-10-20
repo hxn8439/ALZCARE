@@ -2,7 +2,9 @@
 import React from 'react';
 import './Cards.css';
 import CardItem from './CardItem';
+//importing all dependiencies, libraries, and subsite js pages by category- Hamilton Nguyen 10/19/2020
 
+//card function are created to return static cards that goes onto the dementia info page. Withinn the function, a total of three cards with disignated classNames are created.- Hamilton Nguyen 10/19/2020
 function Cards() {
   return (
     <div className='cards'>

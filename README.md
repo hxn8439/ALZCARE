@@ -31,6 +31,8 @@ https://stackoverflow.com/questions/42308879/how-to-solve-npm-error-npm-err-code
 ### OPTIONAL COMMANDS
 Please refer below.
 
+### `npm update`
+
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.<br />
