@@ -11,6 +11,27 @@ function HeroSection() {
       <h1>Welcome to AlzCare</h1>
       
       <div className='hero-btns'>
+      <Button
+          className='btns'
+          buttonStyle='btn--outline'
+          buttonSize='btn--large'
+        >
+          English
+        </Button>
+        <Button
+          className='btns'
+          buttonStyle='btn--outline'
+          buttonSize='btn--large'
+        >
+          Korean (한국어)
+        </Button>
+        <Button
+          className='btns'
+          buttonStyle='btn--outline'
+          buttonSize='btn--large'
+        >
+          Chinese (简体中文)
+        </Button>
         <Button
           className='btns'
           buttonStyle='btn--outline'

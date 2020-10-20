@@ -14,6 +14,6 @@ function resources() {
       <MapSection location={location} zoomLevel={15} />
     </div>
   );
-}
+} // displays a map on the Community Resources page
 
 export default resources;

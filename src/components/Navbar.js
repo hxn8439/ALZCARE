@@ -37,7 +37,7 @@ function Navbar() {
                       </li>
                       <li className = 'nav-item'>
                           <Link to='/research' className='nav-links' onClick={closeMobileMenu}>
-                            Research Opportunities
+                            Research
                           </Link>
                       </li>
                       <li className = 'nav-item'>
@@ -50,9 +50,12 @@ function Navbar() {
                             Contact Us
                           </Link>
                       </li>
-                
-                      
-                      
+                      <li className = 'nav-item'>
+                          <Link to='/login' className='nav-links' onClick={closeMobileMenu}>
+                            Login
+                          </Link>
+                      </li>
+
                   </ul>
 
               </div>
