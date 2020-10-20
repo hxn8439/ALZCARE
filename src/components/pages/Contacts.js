@@ -51,12 +51,8 @@ const Contacts = () => {
       
     </>
     
-<<<<<<< HEAD
-    <h1>Contact Us</h1>
-=======
     <h1>Contact form</h1>
    
->>>>>>> 58a5154d5ba4501a2fdb7f0fe0c0b3f3f70a5363
 
  
     <input placeholder ="Name" value={name} onChange={(e) => setName(e.target.value)} />
