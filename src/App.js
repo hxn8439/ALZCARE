@@ -8,7 +8,7 @@ import Contacts from './components/pages/Contacts';
 import Research from './components/pages/research';
 import resources from './components/pages/resources';
 import Cards from './components/Cards';
-import Outreach from './components/pages/Outreach';
+import Outreach from './components/pages/outreach';
 import login from './components/pages/login';
 //importing all dependiencies, libraries, and subsite js pages by category- Hamilton Nguyen 10/19/2020
 
