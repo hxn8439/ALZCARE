@@ -7,8 +7,8 @@
 }
 
 .google-map {
-  margin-left: auto;
-  width: 50%;
+  margin: auto;
+  width: 100%;
   height: 60vh;
   padding: 20px;
 }

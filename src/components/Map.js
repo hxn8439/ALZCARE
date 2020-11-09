@@ -15,7 +15,7 @@ const LocationPin = ({ text }) => (
 
 // creating a constant map and class contents- Hamilton Nguyen 10/19/2020
 //***TA AND PROFESSOR, DO NOT REVEAL THE CREDITIONALS BELOW TO ANYONE DUE TO SECURITY AND PRIVACY REASONS FOR THIS PROJECT. - Hamilton Nguyen 10/19/2020 ***
-const Map = ({ location, zoomLevel }) => (
+const MapSection = ({ location, zoomLevel }) => (
   <div className="map">
     <h2 className="map=h2">Find Community Resources Near You</h2>
 
@@ -35,4 +35,4 @@ const Map = ({ location, zoomLevel }) => (
   </div>
 )
 
-export default Map
+export default MapSection
