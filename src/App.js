@@ -26,6 +26,7 @@ function App() {
       <Route path='/research' component={Research}/>
       <Route path='/outreach' component={Outreach}/>
       <Route path='/login' component={login}/>
+      
     </Switch>
     </Router>
     </>
