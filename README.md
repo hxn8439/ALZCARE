@@ -2,9 +2,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ### Environment files
 AlzCare-English site  run as: http://localhost:3000
-AlzCare-Admin run as: http://localhost:3001
-AlzCare-Korean site run as: http://localhost:3002
-AlzCare-Chinese site run as: http://localhost:3003
+ AlzCare-Admin run as: http://localhost:3001
+ AlzCare-Korean site run as: http://localhost:3002
+ AlzCare-Chinese site run as: http://localhost:3003
 
 ### Description
 We create an easy-to-use, reactJs native website to provide helpful information about dementia and allow Asian-American dementia patients and their family caregivers to connect to dementia care facilities and researchers in English or their native language. This mobile web application can be hosted locally on a Windows 10 OS personal computer. To host this mobile website on the internet, a Firebase console is needed in which it requires a google account. 
@@ -34,9 +34,9 @@ https://stackoverflow.com/questions/42308879/how-to-solve-npm-error-npm-err-code
 ### `Make sure to execute these files at a designated TCP ports`
 
 AlzCare-English site  run as: http://localhost:3000
-AlzCare-Admin run as: http://localhost:3001
-AlzCare-Korean site run as: http://localhost:3002
-AlzCare-Chinese site run as: http://localhost:3003
+ AlzCare-Admin run as: http://localhost:3001
+ AlzCare-Korean site run as: http://localhost:3002
+ AlzCare-Chinese site run as: http://localhost:3003
 
 
 ### OPTIONAL COMMANDS
