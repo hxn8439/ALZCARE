@@ -1,7 +1,9 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-### Environment files
+### Main Source Environment files
 AlzCare-English site  run as: http://localhost:3000
+
+###LocalHost Environment files: located in LocalHostfiles folder (host them separately outside the main source folder)
  AlzCare-Admin run as: http://localhost:3001
  AlzCare-Korean site run as: http://localhost:3002
  AlzCare-Chinese site run as: http://localhost:3003
