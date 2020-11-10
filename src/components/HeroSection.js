@@ -14,27 +14,25 @@ function HeroSection() {
       <h1>Welcome to AlzCare</h1>
       
       <div className='hero-btns'>
-      <Button
-          className='btns'
-          buttonStyle='btn--dark'
-          buttonSize='btn--large'
-        >
-          English
-        </Button>
+
         <Button
+          onClick={() => window.open("http://localhost:3002", "_blank")}
           className='btns'
           buttonStyle='btn--dark'
           buttonSize='btn--large'
         >
           Korean (한국어)
         </Button>
+
         <Button
+          onClick={() => window.open("http://localhost:3003", "_blank")}
           className='btns'
           buttonStyle='btn--dark'
           buttonSize='btn--large'
         >
           Chinese (简体中文)
         </Button>
+
         <Button
           className='btns'
           buttonStyle='btn--dark'
