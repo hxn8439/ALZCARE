@@ -1,7 +1,12 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-### Environment files
+### Main Source Environment files
+AlzCare-English site  run as: http://localhost:3000
 
+###LocalHost Environment files: located in LocalHostfiles folder (host them separately outside the main source folder)
+ AlzCare-Admin run as: http://localhost:3001
+ AlzCare-Korean site run as: http://localhost:3002
+ AlzCare-Chinese site run as: http://localhost:3003
 
 ### Description
 We create an easy-to-use, reactJs native website to provide helpful information about dementia and allow Asian-American dementia patients and their family caregivers to connect to dementia care facilities and researchers in English or their native language. This mobile web application can be hosted locally on a Windows 10 OS personal computer. To host this mobile website on the internet, a Firebase console is needed in which it requires a google account. 
@@ -28,10 +33,20 @@ You will also see any lint errors in the console.
 if you encounter errors running npm start follow this troubleshoot at 
 https://stackoverflow.com/questions/42308879/how-to-solve-npm-error-npm-err-code-elifecycle
 
+### `Make sure to execute these files at a designated TCP ports`
+
+AlzCare-English site  run as: http://localhost:3000
+ AlzCare-Admin run as: http://localhost:3001
+ AlzCare-Korean site run as: http://localhost:3002
+ AlzCare-Chinese site run as: http://localhost:3003
+
+
 ### OPTIONAL COMMANDS
 Please refer below.
 
 ### `npm update`
+
+Upon Downloading the source files, make sure to run npm update to fix node_modules and package-lock files.
 
 ### `npm test`
 
