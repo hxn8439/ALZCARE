@@ -16,11 +16,17 @@ function resources() {
   return (
     //Alternate map - Johnny P. 11/13/2020
     <div>
-    <iframe src="https://www.google.com/maps/d/embed?mid=1benrcNvPLgrYBM4BvHkpL0NzbDumoS5k&hl=en" width="800" height="600"></iframe>
-    <ResourceTableSection />
+      <p align="center">
+        <iframe src="https://www.google.com/maps/d/u/2/embed?mid=10T3N1jgB7G7yWscab5Qu7eW4i-dHtxlP" width="800" height="600"></iframe>
+      </p>
+      <ResourceTableSection />
     </div>);
   }
 
+
+  // Condensed embed map
+  // <iframe src="https://www.google.com/maps/d/embed?mid=1benrcNvPLgrYBM4BvHkpL0NzbDumoS5k&hl=en" width="800" height="600"></iframe>
+  
   // Original map
   //   <div className="Map">
   //     <MapSection location={location} zoomLevel={15} />
