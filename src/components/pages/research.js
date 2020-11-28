@@ -12,7 +12,7 @@ const Research = () => {
     <Button
           className='btns'
           buttonStyle='btn--dark'
-          buttonSize='btn--large'
+          buttonSize='btn--xl'
           onClick={() => window.open("https://dementiacaregiving.questionpro.com", "_blank")}
         >
           Take Our Online Survey

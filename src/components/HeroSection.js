@@ -11,7 +11,7 @@ function HeroSection() {
   return (
     <div className='hero-container'>
     
-      <h1>Welcome to AlzCare</h1>
+      <h1>Dementia Community for Asian Caregivers</h1>
       
       <div className='hero-btns'>
 
@@ -32,19 +32,8 @@ function HeroSection() {
         >
           Chinese (简体中文)
         </Button>
-
-        <Button
-          className='btns'
-          buttonStyle='btn--dark'
-          buttonSize='btn--large'
-          onClick={() => window.open("https://www.picktime.com/alzcare", "_blank")}
-        >
-          Make an Appointment
-        </Button>
         
-        
-      </div>  
-    
+      </div>
 
     </div>
   );

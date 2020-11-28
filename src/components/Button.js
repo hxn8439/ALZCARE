@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 
 //This js file aid in rendering different style of buttons throughout the site and css formatting.  - Hamilton Nguyen 10/19/2020
 const STYLES = ['btn--primary', 'btn--outline', 'btn--dark', 'btn--test'];
-const SIZES = ['btn--medium', 'btn--large'];
+const SIZES = ['btn--medium', 'btn--large', 'btn--xl'];
 
 export const Button = ({
   children,
