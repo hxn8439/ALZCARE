@@ -1,7 +1,7 @@
 import React from 'react';
-import { signInWithGoogle } from '../../components/pages/firebase';
-import { auth } from '../../components/pages/firebase';
-import '../../components/pages/login.css';
+import { signInWithGoogle } from './firebase';
+import { auth } from './firebase';
+import '../../components/pages/Login.css';
 import { Button } from '../Button';
 
 //importing all dependiencies, libraries, and subsite js pages by category- Hamilton Nguyen 10/19/2020

@@ -17,9 +17,8 @@ function resources() {
     //Alternate map - Johnny P. 11/13/2020
     <div>
       <p align="center">
-        <iframe src="https://www.google.com/maps/d/u/2/embed?mid=10T3N1jgB7G7yWscab5Qu7eW4i-dHtxlP" width="800" height="600"></iframe>
+        <iframe src="https://www.google.com/maps/d/u/2/embed?mid=10T3N1jgB7G7yWscab5Qu7eW4i-dHtxlP" width="90%" height="800"></iframe>
       </p>
-      <ResourceTableSection />
     </div>);
   }
 

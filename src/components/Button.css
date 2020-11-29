@@ -1,5 +1,6 @@
 :root {
   --primary: #fff;
+  --dark_alt: #4d5055;
 }
 
 .btn {
@@ -61,4 +62,5 @@
   background: #fff;
   color: #242424;
   transition: 250ms;
+  border: 1px solid var(--dark_alt);
 }

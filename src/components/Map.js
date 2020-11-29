@@ -2,7 +2,7 @@ import React from 'react'
 import GoogleMapReact from 'google-map-react'
 import { Icon } from '@iconify/react'
 import locationIcon from '@iconify/icons-mdi/map-marker'
-import './map.css'
+import './Map.css'
 //importing all dependiencies, libraries, and subsite js pages by category- Hamilton Nguyen 10/19/2020
 
 // creating a constant locationPin and class contents- Hamilton Nguyen 10/19/2020
