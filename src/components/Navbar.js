@@ -14,9 +14,7 @@ function Navbar() {
     <>
       <nav className="navbar">
         <div className="navbar-container">
-          <Link to="/" className="navbar-logo">
-            AlzCare
-          </Link>
+          <img src="images/uta_logo_custom.png" alt="logo" height="50px"></img>
           <div className="menu-icon" onClick={handleClick}>
             <i className={click ? "fas fa-times" : "fas fa-bars"} />
           </div>

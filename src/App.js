@@ -10,6 +10,7 @@ import resources from './components/pages/resources';
 import Cards from './components/Cards';
 import Outreach from './components/pages/outreach';
 import login from './components/pages/login';
+import Footer from './components/Footer';
 //importing all dependiencies, libraries, and subsite js pages by category- Hamilton Nguyen 10/19/2020
 
 function App() {
@@ -26,14 +27,13 @@ function App() {
       <Route path='/research' component={Research}/>
       <Route path='/outreach' component={Outreach}/>
       <Route path='/login' component={login}/>
-      
     </Switch>
     </Router>
+    <Footer/>
     </>
-    //Utilizing route path functions to statically link all subsite pages using Router<> and Switch<> - Hamilton Nguyen 10/19/2020 
+    //Utilizing route path functions to statically link all subsite pages using Router<> and Switch<> - Hamilton Nguyen 10/19/2020
   );
 }
 
 
 export default App;
-
