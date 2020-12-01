@@ -1,5 +1,6 @@
 :root {
   --primary: #fff;
+  --dark_alt: #4d5055;
 }
 
 .btn {
@@ -24,6 +25,20 @@
   transition: all 0.3s ease-out;
 }
 
+.btn--outline1 {
+  background-color: transparent;
+  color: #242424;
+  padding: 8px 20px;
+  border: 1px solid var(--primary);
+  transition: all 0.3s ease-out;
+}
+
+.btn--dark {
+  background-color: #4d5055;
+  color: #fff;
+  border: 1px solid var(--primary);
+}
+
 .btn--medium {
   padding: 8px 20px;
   font-size: 18px;
@@ -34,10 +49,18 @@
   font-size: 20px;
 }
 
+.btn--xl {
+  margin: 50px auto;
+  padding: 16px 32px;
+  font-size: 30px;
+}
+
 .btn--large:hover,
-.btn--medium:hover {
+.btn--medium:hover,
+.btn--xl:hover {
   transition: all 0.3s ease-out;
   background: #fff;
   color: #242424;
   transition: 250ms;
+  border: 1px solid var(--dark_alt);
 }

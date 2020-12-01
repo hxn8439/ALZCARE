@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700,900');
+
+/* used with styled components to keeps themes consistent in react project */
+:root{
+  --primaryTheme: #dd3928;
+  
+  --mainDark: #343a40;
+  --mainGrey: rgba(109,109,109);
+  --mainLightGrey: rgba(172,172,172);
+  --mainWhite: #fff;
+  --mainBlue: #007bff;
+  --mainRed: #dd3928; /* china's flag red */
+  --offBlue: #248dff; 
+  --offWhite: #eeeeee;
+  --test: #0e83cd;
+}
+
+/* centers the all component/divs */
+*
+{
+margin: 0;  
+}
+
+html, 
+body {
+  font-family: 'Raleway', sans-serif;
+  height: 100%;
+}
+
+#root
+{
+  height: 100%;
+  overflow-x: hidden;
+}
+
+/* When you want a component to take up the remaining height of the page add 'flex: 1;' to it
+      - Do not add flex: 1; here, go find your css for the component and add in flex: 1; there
+*/
+#root .all-content
+{
+  display:flex;
+  flex-direction:column;
+  height: 100%;
+}
+
+.main-component
+{
+  margin: 0 auto;
+  width: 70%;
+  flex:1;
+}
+
+@media (max-width: 800px) {
+  /* CSS that should be displayed if width is equal to or less than 800px goes here */
+  .main-component
+  {
+    width:95%;
+  }
+}
+
+/* used by big header */
+.gen_header{
+  font-size: 2rem ;
+  background:none;
+  margin-bottom: 2rem;
+  
+}
+
+.contact-us-header
+{
+  font-size: 2rem ;
+  text-align: center;
+  position: top;
+  background:none;
+  margin-bottom: 3rem;
+}
+
+
+
+h3
+{
+  margin-bottom: 2rem;
+}
+
+
+/* Hamza if it is confusing you can move the code below to a new file if needed, I will convert this file to apply to main conponents */
+.header_text{
+    font-size: x-large;
+    font-style: bold;
+    text-align: center;
+    position: relative;
+    padding-top: 10px;
+    padding-bottom:10px ;
+}
+.body_text
+{
+  left: 0;
+  font-size: 30px;
+  /* absolute starts igorning other elements so footer starts to overlap this */
+  /* position: absolute;  */
+  text-align: center;
+  /* top: 25%; */
+  /* height: 50%; */
+  width: 100%;
+}
+
+input[type=text], select {
+  width: 55%;
+  padding: 12px 20px;
+  margin: 20px 0;
+  display: inline-block;
+  border: 2px solid BLACK;
+  border-radius: 4px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+
+
+  

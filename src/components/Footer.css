@@ -1,0 +1,21 @@
+/* Styling for footer on bottom of the page - Johnny Pham 11/29/2020 */
+.bottombar {
+  background-color: #333;
+  overflow: hidden;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+.bottombar p{
+  color: #fff;
+  font-size: 16px;
+}
+.copyright {
+  background-color: #242222;
+  color: #fff;
+  padding: 5px;
+  font-size: 16px;
+  text-align: center;
+}
