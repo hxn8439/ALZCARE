@@ -5,11 +5,11 @@ import {BrowserRouter as Router,Switch,Route} from 'react-router-dom';
 import './App.css';
 import Home from './components/pages/Home';
 import Contacts from './components/pages/Contacts';
-import Research from './components/pages/research';
-import resources from './components/pages/resources';
+import Research from './components/pages/Research';
+import resources from './components/pages/Resources';
 import Cards from './components/Cards';
-import Outreach from './components/pages/outreach';
-import login from './components/pages/login';
+import Outreach from './components/pages/Outreach';
+import login from './components/pages/Login';
 import Footer from './components/Footer';
 //importing all dependiencies, libraries, and subsite js pages by category- Hamilton Nguyen 10/19/2020
 
