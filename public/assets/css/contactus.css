@@ -1,0 +1,240 @@
+@import url("https://fonts.googleapis.com/css?family=Permanent+Marker:400|Montserrat:100,200,300,400,500,600,700,800,900|Tillana:400,500,600,700,800");
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+/* Section 3 - Buttons */
+
+.button-container {
+  height: auto;
+  background-color: #010101;
+  line-height: 80px;
+  padding: 35px 0;
+
+  display: flex;
+  align-items: center;
+  position: relative;
+  justify-content: center;
+}
+
+.button-container h2 {
+  color: #f5f5f5;
+  font-weight: 300;
+}
+
+.btn-buy {
+  font-weight: 400;
+  font-size: 17px;
+  display: inline;
+  border-color: #f5f5f5;
+  background-color: #f5f5f5;
+  color: #010101;
+  margin: 0 45px;
+  text-transform: uppercase;
+}
+
+.btn-buy:hover {
+  background-color: transparent;
+  color: #f5f5f5;
+  transition: color ease-in-out 0.5s;
+}
+
+/* --- Footer --- */
+
+footer {
+  height: auto;
+  background-color: #f5f5f5;
+  color: #010101;
+  margin: 0;
+  min-height: 120px;
+}
+
+.social-links {
+  padding: 10px 0;
+}
+
+.social-media {
+  display: flex;
+  align-items: center;
+  position: relative;
+  justify-content: center;
+  padding-top: 25px;
+}
+
+.social-links li a i {
+  width: 35px;
+  height: 35px;
+  padding: 10px 0;
+  border-radius: 50%;
+  line-height: 15px;
+  font-size: 20px;
+  text-align: center;
+  color: #f5f5f5;
+  background-color: #010101;
+}
+
+.social-links li a i:hover {
+  background-color: #acacac;
+  color: #010101;
+  transition: all 0.35s ease-in-out;
+}
+
+.list-inline-item:not(:last-child) {
+  margin-right: 1.5rem;
+}
+
+.footer-end {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.footer-end .footer-end-item {
+  padding-bottom: 8px;
+}
+
+.footer-end-item a,
+p {
+  color: #010101;
+  font-weight: 500;
+}
+
+.footer-end-item a {
+  text-decoration: none;
+}
+
+.footer-end .footer-end-item a:hover {
+  color: #acacac;
+  transition: color ease-in-out 0.25s;
+}
+
+/* --- Photo Gallery --- */
+
+.photo-column {
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.img-fluid {
+  padding-bottom: 10px;
+}
+
+#offset-container {
+  padding-top: 10px;
+  background-color: #010101;
+}
+
+/* --- Contact --- */
+
+.background-photo-container {
+  height: 100vh;
+  background-image: url("../images/main_photo_v2.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  justify-content: center;
+}
+
+.background-photo {
+  z-index: 1;
+}
+
+.background-photo h1 {
+  font-family: "Permanent Marker", sans-serif;
+  font-size: 90px;
+  color: #010101;
+  padding-top: 100px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(245, 245, 245, 0.5);
+}
+
+.form-container {
+  padding: 0 20px;
+  background-color: #010101;
+}
+
+.form-container h2 {
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 35px;
+  text-transform: uppercase;
+}
+
+label {
+  margin-bottom: 3px;
+  color: white;
+  font-size: 16px;
+}
+
+.form-group {
+  margin-bottom: 0;
+}
+
+.group-message {
+  padding-top: 30px;
+}
+
+.contact-form-item {
+  margin-bottom: 15px;
+  border-color: #acacac;
+}
+
+.form-control {
+  background-color: #f5f5f5;
+}
+
+#InputMessage {
+  border-color: #acacac;
+  margin-bottom: 20px;
+}
+
+.btn-send {
+  margin-bottom: 70px;
+  margin-top: 10px;
+  background-color: #f5f5f5;
+  border-color: #f5f5f5;
+  color: #010101;
+  text-transform: uppercase;
+  font-size: 17px;
+  padding: 0.5rem 2.2rem;
+}
+
+.btn-send:hover {
+  background-color: transparent;
+  color: #f5f5f5;
+  transition: color ease-in-out 0.5s;
+}
+
+/* outline text code snipet from: https://stackoverflow.com/questions/4919076/outline-effect-to-text */
+
+.hollow-text {
+  color: #010101;
+  text-shadow: -1px -1px 0 #f5f5f5, 1px -1px 0 #f5f5f5, -1px 1px 0 #f5f5f5,
+    1px 1px 0 #f5f5f5;
+}
+
+.hollow-text-reverse {
+  color: #eed68e;
+  text-shadow: -1px -1px 0 #c43b3b, 1px -1px 0 #c43b3b, -1px 1px 0 #c43b3b,
+    1px 1px 0 #c43b3b;
+}
