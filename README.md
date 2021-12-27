@@ -101,3 +101,13 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+### Google firebase console
+
+https://console.firebase.google.com/u/1/project/alzcare-fdf1e/hosting/sites
+
+### Landing Site
+
+https://alzcare-fdf1e.web.app/
+
+
